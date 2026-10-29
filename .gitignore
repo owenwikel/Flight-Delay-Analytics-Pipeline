@@ -1,2 +1,6 @@
 data/
 *.duckdb
+# Raw BTS downloads from download.py (already covered by data/ above, listed so it's explicit)
+data/raw/
+# DuckDB's write-ahead log, created next to the .duckdb file while it's open
+*.duckdb.wal
